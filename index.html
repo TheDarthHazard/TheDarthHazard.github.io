@@ -13,6 +13,7 @@
                 <h1>Hi, I'm Aakash Pereira 👋</h1>
                 <p>Welcome to my personal portfolio and playground. This portfolio and playground is still under construction
                     but keep an eye out on it!</p>
+                <button id="surpriseBtn">Surprise Me 🎁</button>
             </div>
 
             <div class="photocard">
@@ -27,5 +28,12 @@
         <footer>
             Copyright © Aakash Pereira 2022. Created with 💖 and 🍕
         </footer>
+
+        <script>
+            let surpriseBtn = document.getElementById("surpriseBtn");
+            surpriseBtn.addEventListener("click", function() {
+                alert("Sorry, there isn't actually a surprise. I lied 😭");
+            })
+        </script>
     </body>
 </html>
