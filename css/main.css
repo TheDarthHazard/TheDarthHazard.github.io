@@ -21,6 +21,11 @@ footer {
     .hero {
         flex-direction: column;
     }
+
+    .welcomeText {
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
 
 .welcomeText {
